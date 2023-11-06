@@ -27,9 +27,8 @@ const PageParraRodriguez = () => {
         <p>Eseguire lo stesso comando per comprimere dei commit recenti: <code>git rebase -i &lt;commit&gt;</code>. Questo comando ti riporta appena prima dell'ultimo commit. Poi eseguire un reset su <code>HEAD~</code> per ripristinare le modifiche e creare quanti commit si vogliano. Alla fine si esegue il <code>git rebase --continue</code> per terminare la rebase</p>
 
         <p>Per ripristinare lo stato di una branch ad un commit specifico con tutte le sue modifiche, si esegue <code>git revert &lt;codice_commit&gt;</code></p>
-        cdubvbfduvbudciscb
 
-        <p>Angular è il framework più bello del mondo</p>
+        <p>Per mettere in pausa una modifica per riprendere in un secondo momento si utilizza <code>git stash -u</code>. Questo comando ti permette di salvare le modifiche fatte fino a quel momento e le salva fino a quando non riprendi le modifiche. Per controllare le stash salvate si usa <code>git stash list</code> e per ripristinare le modifiche dalla più recente si usa<code>git stash pop</code></p>
     </>);
 }
 
