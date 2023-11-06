@@ -28,8 +28,6 @@ const PageParraRodriguez = () => {
 
         <p>Per ripristinare lo stato di una branch ad un commit specifico con tutte le sue modifiche, si esegue <code>git revert &lt;codice_commit&gt;</code></p>
         cdubvbfduvbudciscb
-
-        <p>Angular è il framework più bello del mondo</p>
     </>);
 }
 
