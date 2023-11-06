@@ -1,5 +1,6 @@
 import Ammenda from "../components/parrarodriguez/Ammenda";
 import Logo from "../components/parrarodriguez/Logo";
+import ParraRodriguezButton from "../components/parrarodriguez/ParraRodriguezButton";
 
 const PageParraRodriguez = () => {
     return (<>
@@ -21,6 +22,8 @@ const PageParraRodriguez = () => {
         <p>Fare il <code>git checkout</code> su master e poi fare <code>git merge --squash &lt;nome_branch&gr;</code> verso la branch che vuoi comprimere</p>
 
         <Ammenda />
+
+        <ParraRodriguezButton />
     </>);
 }
 
