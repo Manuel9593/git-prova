@@ -13,6 +13,11 @@ const PageParraRodriguez = () => {
         <p>Lasagna alla bolognese</p>
         <p>Tagliata di manzo</p>
         <p>Tetta della monaca (dolce pugliese)</p>
+
+        <p>Eminem</p>
+        <p>Brad Pitt</p>
+        <p>Cristiano Ronaldo</p>
+        <p>Fare il <code>git checkout</code> su master e poi fare <code>git merge --squash &lt;nome_branch&gr;</code> verso la branch che vuoi comprimere</p>
     </>);
 }
 
