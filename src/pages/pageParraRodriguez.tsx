@@ -9,6 +9,10 @@ const PageParraRodriguez = () => {
         <p>Da branch <code>cognome-init</code> si può fare la pull da <code>origin/master</code> con opzione rebase</p>
         <p>La soluzione sarebbe questa: <code>git pull --rebase origin master</code></p>
 
+        <p>Insalata di polpo</p>
+        <p>Lasagna alla bolognese</p>
+        <p>Tagliata di manzo</p>
+        <p>Tetta della monaca (dolce pugliese)</p>
     </>);
 }
 
