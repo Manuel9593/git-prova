@@ -1,9 +1,10 @@
+import Ammenda from "../components/parrarodriguez/Ammenda";
 import Logo from "../components/parrarodriguez/Logo";
 
 const PageParraRodriguez = () => {
     return (<>
         <Logo />
-        <p>Si esegue un <code>git commit &lt;nuova branch&gt;</code> per creare una nupva branch dall'ultimo commit</p>
+        <p>Si esegue un <code>git branch &lt;nuova branch&gt;</code> per creare una nupva branch dall'ultimo commit</p>
         <p>E <code>git reset --hard HEAD~n</code> o <code>git reset --hard  &lt;codice commit&gt;</code> per quanti commit volete spostare la branch d'inizio</p>
 
         <p>Da branch <code>cognome-init</code> si può fare la pull da <code>origin/master</code> con opzione rebase</p>
@@ -18,6 +19,8 @@ const PageParraRodriguez = () => {
         <p>Brad Pitt</p>
         <p>Cristiano Ronaldo</p>
         <p>Fare il <code>git checkout</code> su master e poi fare <code>git merge --squash &lt;nome_branch&gr;</code> verso la branch che vuoi comprimere</p>
+
+        <Ammenda />
     </>);
 }
 
