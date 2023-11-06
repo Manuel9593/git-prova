@@ -24,6 +24,7 @@ const PageParraRodriguez = () => {
         <Ammenda />
 
         <ParraRodriguezButton />
+        <p>Eseguire lo stesso comando per comprimere dei commit recenti: <code>git rebase -i &lt;commit&gt;</code>. Questo comando ti riporta appena prima dell'ultimo commit. Poi eseguire un reset su <code>HEAD~</code> per ripristinare le modifiche e creare quanti commit si vogliano. Alla fine si esegue il <code>git rebase --continue</code> per terminare la rebase</p>
     </>);
 }
 
